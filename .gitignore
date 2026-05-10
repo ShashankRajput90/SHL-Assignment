@@ -8,33 +8,26 @@ __pycache__/
 dist/
 build/
 .eggs/
-.mypy_cache/
-.pytest_cache/
-*.pyc
 
 # Virtual environments
-venv/
 .venv/
+venv/
 env/
-.env/
 
 # Environment variables
 .env
+.env.local
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# FAISS index (large binary — regenerate from catalog.json)
+data/faiss_index.index
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Data / model artifacts — keep catalog.json and index but not raw downloads
-# (faiss index is committed intentionally)
-*.tmp
-*.log
-
-# Railway / deployment secrets
-.railway/
+sample_conversations/
+data/shl_product_catalog.json
