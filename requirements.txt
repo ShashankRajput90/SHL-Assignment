@@ -1,12 +1,8 @@
 fastapi
 uvicorn
-requests
-beautifulsoup4
-lxml
-pandas
-tqdm
+groq
 sentence-transformers
 faiss-cpu
-numpy
-scikit-learn
 python-dotenv
+pydantic
+numpy
