@@ -30,5 +30,4 @@ data/faiss_index.index
 Thumbs.db
 
 sample_conversations/
-data/shl_product_catalog.json
 SHL_testing_outputs(chatgpt).txt
